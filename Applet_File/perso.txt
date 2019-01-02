@@ -1,0 +1,20 @@
+//====Select AID (Instance AID)
+00 70 00 00 01
+01 A4 04 00 10 01A404000BA000000018475041432D31
+
+//====Create SSD Related Files
+91 E0 00 00 18 62 16 82 02 41 21 83 02 1F 10 8A 01 05 8B 03 6F 06 07 80 02 00 0A 88 00 
+
+//====Select File (id)
+01 A4 00 00 02 1F 10
+
+//====Read Binary
+01 B0 00 00 0A
+
+//====Update Binary
+01 D6 00 00 0A 11 60 10 03 00 00 00 00 00 80
+
+01 B0 00 00 0A
+
+// Close logical channel
+00 70 80 01
