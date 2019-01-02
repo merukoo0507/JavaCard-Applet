@@ -2,10 +2,10 @@
 Practice applets on javacard.
 
 Only for APDU commands:
-    Applet_Ecrypt
-    Applet_File
+        Applet_Ecrypt
+        Applet_File
     
 Need to Use the Prohandler to display:
-    AppletBIP
-    Applet_CallControl
-    Applet_GuessNum
+        AppletBIP
+        Applet_CallControl
+        Applet_GuessNum
